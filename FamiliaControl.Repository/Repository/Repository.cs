@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace FamiliaControl.Repository
 {
-    public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseClass, new()
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : BaseClass, new()
     {
         protected readonly FamilyControlDbContext _db;
         protected readonly DbSet<TEntity> _dbSet;

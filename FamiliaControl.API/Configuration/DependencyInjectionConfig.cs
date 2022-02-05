@@ -1,4 +1,6 @@
-﻿using FamiliaControl.Repository;
+﻿using FamiliaControl.Domain.Models;
+using FamiliaControl.Repository;
+using FamiliaControl.Repository.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -18,7 +20,6 @@ namespace FamiliaControl.API.Configuration
                .AddDbContext<FamilyControlDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("DefaultConnectionString")));
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
 
             return services;
         }
