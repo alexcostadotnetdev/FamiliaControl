@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamiliaControl.API", "FamiliaControl.API", "{18A68BD4-0A25-4959-B2AE-474C085772FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamiliaControl.Service", "FamiliaControl.Service", "{7F598BF0-083E-4EFE-86BE-87F4D26E0DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamiliaControl.Repository", "FamiliaControl.Repository", "{E3DE9F0C-E628-46C7-B866-550CB2531BBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamiliaControl.Domain", "FamiliaControl.Domain", "{957DDEE4-5C50-48B5-9719-8A03716DC771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamiliaControl.API", "FamiliaControl.API\FamiliaControl.API.csproj", "{52D57F2A-8DF0-430D-A40F-279D3BC44CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamiliaControl.Domain", "FamiliaControl.Domain\FamiliaControl.Domain.csproj", "{D286EC86-03FB-40DD-BC68-3F27B67CF642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamiliaControl.Repository", "FamiliaControl.Repository\FamiliaControl.Repository.csproj", "{624C631F-2231-4F1F-B882-3765BC1F8C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamiliaControl.Service", "FamiliaControl.Service\FamiliaControl.Service.csproj", "{EA14104D-41A5-4CC0-A217-2F876E39D8EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D57F2A-8DF0-430D-A40F-279D3BC44CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D57F2A-8DF0-430D-A40F-279D3BC44CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D57F2A-8DF0-430D-A40F-279D3BC44CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D57F2A-8DF0-430D-A40F-279D3BC44CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D286EC86-03FB-40DD-BC68-3F27B67CF642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D286EC86-03FB-40DD-BC68-3F27B67CF642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D286EC86-03FB-40DD-BC68-3F27B67CF642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D286EC86-03FB-40DD-BC68-3F27B67CF642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624C631F-2231-4F1F-B882-3765BC1F8C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624C631F-2231-4F1F-B882-3765BC1F8C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624C631F-2231-4F1F-B882-3765BC1F8C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624C631F-2231-4F1F-B882-3765BC1F8C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA14104D-41A5-4CC0-A217-2F876E39D8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA14104D-41A5-4CC0-A217-2F876E39D8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA14104D-41A5-4CC0-A217-2F876E39D8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA14104D-41A5-4CC0-A217-2F876E39D8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52D57F2A-8DF0-430D-A40F-279D3BC44CA3} = {18A68BD4-0A25-4959-B2AE-474C085772FC}
+		{D286EC86-03FB-40DD-BC68-3F27B67CF642} = {957DDEE4-5C50-48B5-9719-8A03716DC771}
+		{624C631F-2231-4F1F-B882-3765BC1F8C8D} = {E3DE9F0C-E628-46C7-B866-550CB2531BBF}
+		{EA14104D-41A5-4CC0-A217-2F876E39D8EB} = {7F598BF0-083E-4EFE-86BE-87F4D26E0DC1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ECFDF16-B2A4-410F-A0B6-6F4E84AC137E}
+	EndGlobalSection
+EndGlobal
